@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Projects - Milad Flores</title>
 </head>
 
 <body>
@@ -14,16 +15,59 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="main-content">
+        <h2>Hands-On Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/scanner.jpg" alt="Assembled barcode scanner" class="project-image">
+                <div class="project-details">
+                    <h3>Barcode Scanner</h3>
+                    <p>This project involves building a barcode scanner using an Arduino and a scanning component,
+                        designed to keep track of your groceries. The system is intended to be placed next to your
+                        fridge or pantry, and whenever you buy new groceries, you scan the barcode of the item and add
+                        it to your digital inventory. The database stores details such as item names, quantity, and the
+                        date of purchase.</p>
+                    <p>When it's time for your next shopping trip, the system helps you easily check
+                        what you already have, saving time and reducing food waste by letting you know what items are
+                        running low. It's an efficient and automated way to manage your kitchen inventory.</p>
+                    <p><strong>Technologies Used:</strong> Arduino, Scanner, LCD Display, C++</p>
+                </div>
+            </div>
 
+            <div class="project-card">
+                <img src="images/memoryGame.jpg" alt="Arduino memory game setup with LED sequence"
+                    class="project-image">
+                <div class="project-details">
+                    <h3>Memory Sequence Game</h3>
+                    <p>In this project, I created a memory sequence game using Arduino, which challenges the player to
+                        memorize and repeat a sequence of LED flashes. The game displays a sequence of lights on 4 LEDs,
+                        and the player has to replicate the sequence by pressing corresponding buttons. The game becomes
+                        progressively more difficult as the sequence length increases.</p>
+                    <p>This project helped me understand
+                        how to work with input/output devices and manage user interaction. It's a fun and engaging way
+                        to practice memory and concentration skills while building practical skills in embedded systems.
+                    </p>
+                    <p><strong>Technologies Used:</strong> Arduino, LEDs, Buttons, Buzzer, C++</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
+        <nav id="footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
         <section id="social-links">
             <a href="linkedin.com" target="_blank">LinkedIn</a>
             <a href="github.com" target="_blank">Github</a>
@@ -31,17 +75,7 @@
 
         <section id="contact-info">
             <p>&copy; 2024 Milad Flores</p>
-            <p><a href="mailto:milad.flores@gmail.com">Email: milad.flores@gmail.com</a></p>
         </section>
-
-        <nav id="footer-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
     </footer>
 </body>
 
