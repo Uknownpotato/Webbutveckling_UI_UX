@@ -452,3 +452,37 @@ form button:hover {
     border-radius: 8px;
     margin-top: 1rem;
 }
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--primary-dark);
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+    background-color: var(--link-hover-color);
+}
+
+#live-clock {
+    font-size: 1em;
+    color: var(--primary-dark);
+    margin-top: 5px;
+    text-align: center;
+}
+
+#live-date {
+    margin-top: 10px;
+    font-size: 1em;
+    color: var(--primary-dark);
+    text-align: center;
+}
